@@ -20,9 +20,3 @@ def is_power(x, y):
         return False
     """ recurisive call to x/y,y for sequence """
     return is_power(x/y, y)  
-
-print("is_power(10, 2) returns: ", is_power(10, 2))
-print("is_power(27, 3) returns: ", is_power(27, 3))
-print("is_power(1, 1) returns: ", is_power(1, 1))
-print("is_power(10, 1) returns: ", is_power(10, 1))
-print("is_power(3, 3) returns: ", is_power(3, 3))
